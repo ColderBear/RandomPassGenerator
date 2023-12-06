@@ -1,21 +1,30 @@
-# cN8mRguL
+This is a Random Password Generator 
 
-Quick start:
+Users can enter specific digits of passwords they prefer
 
-```
-$ npm install
-$ npm start
-````
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+Dark/Light Mode Toggle:
+  Users can switch between dark and light modes by clicking the "Dark/Light Mode" button.
+  The color scheme changes to improve visibility based on user preference.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+User Input Validation:
+  Users can enter the number of digits they want for the random password.
+  The app provides error handling for invalid input, such as non-numeric input or negative numbers.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+Generate Passwords Button:
+  Clicking the "Generate passwords" button generates two random passwords.
+  The passwords are displayed in two separate sections on the page.
 
-Happy Coding!
+Display Sections:
+  There are two sections (#display and #display2) for displaying the generated passwords.
+  Each section has a consistent style, including background color, text color, and border-radius.
+
+Password Generation Logic:
+  The app uses an array of characters (characters) that includes uppercase letters, lowercase letters, numbers, and special characters.
+  Passwords are generated based on the user's input for the number of digits.
+
+Clear Error Display:
+  The app clears any existing error message when valid input is provided.
+
+Responsive Design:
+  The app has a responsive design that adjusts to different screen sizes.
