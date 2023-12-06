@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <title></title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main-bx">
+      <div class="mode">
+        <button id="dark-light-mode-btn"">Dark/Light Mode</button>
+      </div>
+      <div class="main-content">
+        <h2>
+          <span id="black">Generate a </span><br /><span id="green"
+            >random password</span
+          >
+        </h2>
+        <p id="small-text">Never use an insecure password again.</p>
+        <input
+          type="text"
+          id="countDigits"
+          placeholder="Enter digits you want"
+          required
+        />
+        <button id="digit-btn">Enter</button>
+        <span id="errorDisplay"></span>
+        <button class="btn" id="generate-passwords-btn">Generate passwords</button>
+        <div class="display-bx">
+          <span id="display"></span>
+          <span id="display2"></span>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
